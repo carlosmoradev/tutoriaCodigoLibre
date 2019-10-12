@@ -1,0 +1,57 @@
+html{
+    background: peru;
+}
+
+.imagenArdilla{
+    border-style: dashed;
+    height: 50px;
+}
+
+#contenedor1{
+    display: block;
+}
+
+#contenedor1 .imagenArdilla{
+    border-style: double;
+    height: 75px;
+}
+
+#contenedor2{
+    display: inline;
+}
+
+#contenedor2 .imagenArdilla{
+    border-style: dotted;
+    border-color: blueviolet;
+    height: 90px;
+}
+
+#contenedor3{
+    display: inline-block;
+}
+
+h1, h3{
+    color: purple;
+}
+
+h2, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+.importante{
+    text-decoration: underline;
+}
+
+.secundario{
+    text-decoration: line-through;
+}
+
+sencillo{
+    text-decoration: underline overline;
+}
+
+.diferente{
+    text-decoration: none;
+    color: black;
+}
